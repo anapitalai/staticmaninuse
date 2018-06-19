@@ -11,7 +11,7 @@ We have residental and commercials available for rent.
 
 Please leave a comment
 
-<form method="POST"    action="https://api.staticman.net/v2/entry/eduardoboucas/staticman/gh-pages/comments">
+<form method="POST"    action="https://api.staticman.net/v2/entry/anapitalai/staticmaninuse/gh-pages/comments">
   <input name="options[redirect]" type="hidden" value="https://my-site.com">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
