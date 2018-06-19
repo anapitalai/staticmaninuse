@@ -11,8 +11,8 @@ We have residental and commercials available for rent.
 
 Please leave a comment
 
-<form method="POST"    action="https://api.staticman.net/v2/entry/anapitalai/staticmaninuse/gh-pages/comments">
-  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+<form method="POST"    action="https://api.staticman.net/v2/entry/anapitalai/staticmaninuse">
+  <input name="options[redirect]" type="hidden" value="https://https://pailblog.netlify.com">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   <label><input name="fields[name]" type="text">Name</label>
