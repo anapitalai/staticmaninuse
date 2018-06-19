@@ -2,9 +2,9 @@
 languageCode = "en-us"
 title = "Pulum Anda Real Estate Blog"
 theme = "bleak"
-#publishDir = "<target_publish_folder>"
+publishDir = "public"
 
 [params]
-  Subtitle = "easy, composable, open, serverless components"
+  Subtitle = "realestate,commercial,residential,bedsitters,standalone house,spacious units"
   cover = "/images/serverless-components.gif"
 
