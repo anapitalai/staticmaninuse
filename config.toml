@@ -7,3 +7,4 @@ theme = "bleak"
 [params]
   Subtitle = "easy, composable, open, serverless components"
   cover = "/images/serverless-components.gif"
+
