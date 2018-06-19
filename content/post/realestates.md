@@ -1,7 +1,7 @@
 ---
 title: "Realestates"
 date: 2018-06-19T10:29:36+10:00
-draft: true
+draft: false
 ---
 # Our Properties
 
