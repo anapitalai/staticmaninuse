@@ -1,0 +1,59 @@
+backend:
+  name: git-gateway
+  branch : step-01-add-a-menu
+  repo: anapitalai/cymwebappfinal # Path to Github repository
+  #branch: master
+  publish_mode: editorial_workflow
+
+
+media_folder: "src/img/gallery"
+public_folder: "/img/gallery"
+
+
+collections:
+  - name: gallery
+    label: "Gallery Image" # Used in the UI, ie.: "New Post"
+    folder: "site/content/gallery" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Gallery Image", name: "image", widget: "image"}
+
+  - name: profile
+    label: "profile data" # Used in the UI, ie.: "New Post"
+    folder: "site/content/profile" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Name of Member", name: "title", widget: "string"}
+   #   - {label: "Supported Meals", name: "categories", widget: "list", default: ["", "dinner"]}
+      - {label: "Short Description", name: "description", widget: "text"}
+      - {label: "Age", name: "type", widget: "string"}
+      - {label: "Province", name: "province", widget: "string"}
+      - {label: "Gallery Image", name: "image", widget: "image"}
+ 
+  - name: program
+    label: "program name" # Used in the UI, ie.: "New Post"
+    folder: "site/content/program" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Leader", name: "title", widget: "string"}
+     # - {label: "Program Level", name: "categories", widget: "list", default: ["tuccongregational", "morobecct","regional","ucyouth"]}
+      - {label: "Activity", name: "activity", widget: "string"}
+      - {label: "Speccial Activity", name: "sactivity", widget: "string"}  
+      - {label: "Venue", name: "venue", widget: "string"}
+      - {label: "Month", name: "month", widget: "string"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Day", name: "day", widget: "string"}
+      - {label: "Remarks", name: "remarks", widget: "text"}       
+
+  #- name: food
+   # label: "Food Item" # Used in the UI, ie.: "New Post"
+    #folder: "site/content/food" # The path to the folder where the documents are stored
+    #create: true # Allow users to create new documents in this collection
+    #fields: # The fields each document in this collection have
+     # - {label: "Name of Item", name: "title", widget: "string"}
+      #- {label: "Supported Meals", name: "categories", widget: "list", default: ["lunch", "dinner"]}
+      #- {label: "Ingredients/Description", name: "description", widget: "text"}
+      #- {label: "Type of Food", name: "type", widget: "string", default: "raw bar"}
+      #- {label: "Price", name: "price", widget: "string"}  
+
