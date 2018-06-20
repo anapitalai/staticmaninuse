@@ -1,4 +1,4 @@
-baseURL = "/"
+# baseURL = "http://sls-comps.example.com/"
 languageCode = "en-us"
 title = "Pulum Anda Real Estate Blog"
 theme = "bleak"
