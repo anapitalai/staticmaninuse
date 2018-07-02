@@ -2,9 +2,9 @@
 languageCode = "en-us"
 title = "Napitalai ICT Blog"
 theme = "bleak"
-publishDir = "public"
+#publishDir = "public"
 
 [params]
-  Subtitle = "realestate,commercial,residential,bedsitters,standalone house,spacious units"
-  cover = "/images/serverless-components.gif"
+  Subtitle = "web designing and programming,servers,networking,ethical hacking,web applications,web mapping,html,css,scripting"
+  cover = "images/tn.png"
 
