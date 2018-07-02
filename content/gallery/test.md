@@ -1,5 +1,5 @@
 ---
-title: test
+title: hostgator
 image: /img/gallery/hg.png
 ---
 
