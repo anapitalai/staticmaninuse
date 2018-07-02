@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   #branch : step-01-add-a-menu
-  repo: anapitalai/cymwebappfinal # Path to Github repository
+  repo: anapitalai/staticmaninuse # Path to Github repository
   #branch: master
   publish_mode: editorial_workflow
 
