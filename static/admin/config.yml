@@ -27,5 +27,5 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "text"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Image", name: "image", widget: "image", optional: true}
+      - {label: "Image", name: "image", widget: "image", optional: false}
 
